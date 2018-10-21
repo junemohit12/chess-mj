@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cuebiq.chess.GameTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-10-21T03:48:12" hostname="mohits-MacBook-Pro.local" time="0.284">
+  <properties/>
+  <testcase name="isLinearValid" classname="com.cuebiq.chess.GameTest" time="0.267"/>
+  <testcase name="isDiagonalValid" classname="com.cuebiq.chess.GameTest" time="0.016"/>
+  <system-out><![CDATA[Calling is Diagonal Move fromLocation{xPos=4, yPos=5} to Location{xPos=1, yPos=2}
+Calling is Diagonal Move fromLocation{xPos=4, yPos=5} to Location{xPos=3, yPos=4}
+Calling is Diagonal Move fromLocation{xPos=4, yPos=5} to Location{xPos=1, yPos=1}
+Calling is Diagonal Move fromLocation{xPos=4, yPos=5} to Location{xPos=3, yPos=6}
+Calling is Diagonal Move fromLocation{xPos=4, yPos=5} to Location{xPos=2, yPos=7}
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.cuebiq.chess.Game - Initialize Game
+[Test worker] INFO com.cuebiq.chess.Game - ROOK1 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - KNIGHT1 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - BISHOP1 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - QUEEN with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - KING with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - BISHOP2 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - KNIGHT2 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - ROOK2 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN1 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN2 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN3 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN4 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN5 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN6 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN7 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN8 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - ROOK1 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - KNIGHT1 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - BISHOP1 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - KING with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - QUEEN with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - BISHOP2 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - KNIGHT2 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - ROOK2 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN1 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN2 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN3 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN4 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN5 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN6 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN7 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN8 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - ROOK1 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN1 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - Is Linear Valid Called
+[Test worker] INFO com.cuebiq.chess.Game - Is Linear Valid Called
+[Test worker] INFO com.cuebiq.chess.Game - Is Linear Valid Called
+[Test worker] INFO com.cuebiq.chess.Game - Initialize Game
+[Test worker] INFO com.cuebiq.chess.Game - ROOK1 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - KNIGHT1 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - BISHOP1 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - QUEEN with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - KING with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - BISHOP2 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - KNIGHT2 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - ROOK2 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN1 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN2 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN3 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN4 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN5 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN6 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN7 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN8 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - ROOK1 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - KNIGHT1 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - BISHOP1 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - KING with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - QUEEN with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - BISHOP2 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - KNIGHT2 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - ROOK2 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN1 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN2 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN3 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN4 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN5 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN6 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN7 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN8 with color BLACK Created
+[Test worker] INFO com.cuebiq.chess.Game - ROOK1 with color WHITE Created
+[Test worker] INFO com.cuebiq.chess.Game - PAWN1 with color BLACK Created
+]]></system-err>
+</testsuite>
